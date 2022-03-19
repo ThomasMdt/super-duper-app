@@ -1,0 +1,23 @@
+{
+  "name": "testtask",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "npx parcel",
+    "build": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "backbone": "^1.4.1",
+    "bulma": "^0.9.3",
+    "jquery": "^3.6.0",
+    "underscore": "^1.13.2"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.3.2",
+    "parce": "^1.2.7",
+    "prettier": "2.6.0"
+  }
+}

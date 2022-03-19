@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" data-framework="backbonejs">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <link rel="stylesheet" href="../node_modules/bulma/css/bulma.min.css" />
+    <style>
+      .notification-container {
+        position: absolute !important;
+        z-index: 999;
+        top: 10px;
+        right: 10px;
+        width: 250px;
+        visibility: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container box mt-5" id="app"></div>
+    <div class="notification-container">
+      <div class="notification">
+        <button class="delete"></button>
+        <p></p>
+      </div>
+    </div>
+    <script
+      type="module"
+      src="../node_modules/underscore/underscore-min.js"
+    ></script>
+    <script
+      type="module"
+      src="../node_modules/jquery/dist/jquery.slim.min.js"
+    ></script>
+    <script type="module" src="../node_modules/backbone/backbone.js"></script>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
